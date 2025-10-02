@@ -1,7 +1,7 @@
-import { Nav } from "./_components/nav";
-import { Hero } from "./_components/hero";
-import { Footer } from "./_components/footer"
-import { Objectives } from "./_components/objectives"
+import { Nav } from "./components/nav";
+import { Hero } from "./components/hero";
+import { Footer } from "./components/footer"
+import { Objectives } from "./components/objectives"
 import ProjetosCarrossel from "./components/projetos-carrossel"
 
 const Home = () => {
@@ -12,6 +12,7 @@ const Home = () => {
             <Hero></Hero>
             <Objectives></Objectives>
             <ProjetosCarrossel />
+
             <Footer></Footer>
            
         </main>

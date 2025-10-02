@@ -1,8 +1,20 @@
 export function Objectives() {
     return (
        
+        <section className="my-10 flex justify-center items-center h-screen bg-gradient-to-r from-purple-300 to-purple-200">
+            <div className="bg-white border-4 border-black rounded-sm p-2 flex justify-center items-center ">
+                <div className="bg-gradient-to-r from-purple-600 to-pink-400 w-200 h-160 flex justify-center items-center">
+                    <div className="bg-white w-[96%] h-[96%] border border-gray-500"></div>
+                </div>
+            </div>
+        </section>
 
-        <section className="bg-gradient-to-r from-purple-300 to-purple-200 w-full h-screen flex items-center justify-center px-5">
+    )
+}
+
+
+
+        <section className=" w-full h-screen flex items-center justify-center px-5">
             <div className="border-black border-4 rounded-sm align-middle w-[80%] etc*/ bg-white">
                 <div className="m-1 bg-gradient-to-r from-purple-600 to-pink-400">
                     <div className="m-4 bg-white">
@@ -21,8 +33,3 @@ export function Objectives() {
                 </div>
             </div>
         </section>
-
-    )
-}
-
-
