@@ -1,19 +1,37 @@
 @import "tailwindcss";
 
-:root {
+:root {/* Cores padrões do projeto */
   --background: #C8B6FFCC;
   --foreground: #ededed;
+
+  --nav: #FFFFFF;
+  --nav_hover: #8C78B4;
+
+  --card_title: #414141;
+  --card_text: #000000:
+  --card_background: #000000:
+
+
+  --font-pixelify_sans: 'Pixelify Sans', sans-serif;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  --color-nav: var(--nav);
+  --color-nav_hover: var(--nav_hover);
+
+  --color-card_title: var(--card_title);
+  --color-card_text: var(--card_text);
+  --color-card_background: var(--card_background);
+
   --font-sans: var(--font-pixelify_sans);
   --font-mono: var(--font-VT323);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root {/* Cores alternativas caso o modo dark esteja ativado no navegador em uso */
     --background: #2A1E47;
     --foreground: #E6E6E6;
   }
@@ -22,5 +40,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
+
