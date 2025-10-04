@@ -8,7 +8,12 @@
   --font-sans: var(--font-pixelify-sans);
   --font-mono: var(--font-vt323);
 
-  --background: #C8B6FFCC;
+  --background: 
+    /* camada 1: roxo -> rosa -> roxo (horizontal) */
+    radial-gradient(circle at top left, #C8B6FF 0%, #E9BFE0 40%, #E9BFE0 60%, #C8B6FF 100%),
+
+    /* camada 2: rosa -> branco (vertical, transparente em cima pra mesclar) */
+    linear-gradient(to bottom, #C8B6FF, #E7DFFF,#FD7FB4, #FFFFFF);
   --foreground: #ededed;
 
   --nav: #FFFFFF;
@@ -52,3 +57,6 @@ body {
   color: var(--foreground);
 }
 
+html {
+  scroll-behavior: smooth;
+}

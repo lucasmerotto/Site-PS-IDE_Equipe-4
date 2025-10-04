@@ -19,9 +19,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" className="scroll-smooth">
       <body
-        className={`${pixelify_sans.className} ${vt323.className} antialiased`}
+        className={`${pixelify_sans.className} ${vt323.className} antialiased `}
       >
         {children}
       </body>

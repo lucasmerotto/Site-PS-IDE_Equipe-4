@@ -47,8 +47,8 @@ export default function ProjetosCarrossel() {
       style={{ fontFamily: "var(--font-sans)" }}
     >
       {/* Barra de título */}
-      <div
-        className="text-white font-bold px-6 py-2 text-2xl border-t-4 border-l-4 border-r-4 border-b-4 border-black overflow-hidden h-12 flex items-center"
+      <div id="projects"
+        className="scroll-mt-40 text-white font-bold px-6 py-2 text-2xl border-t-4 border-l-4 border-r-4 border-b-4 border-black overflow-hidden h-12 flex items-center"
         style={{
           minWidth: 220,
           backgroundImage: "linear-gradient(90deg, #604ABC 0%, #FE7FB4 100%)"
